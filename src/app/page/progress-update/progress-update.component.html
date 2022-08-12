@@ -1,0 +1,21 @@
+<div class="progress-update-form">
+  <mat-form-field class="full-width" appearance="fill">
+    <mat-label>Status</mat-label>
+    <input matInput [(ngModel)]="progressToSave.Status">
+  </mat-form-field>
+  <mat-form-field class="full-width" appearance="fill">
+    <mat-label>Obstacles</mat-label>
+    <input matInput [(ngModel)]="progressToSave.Obstacles">
+  </mat-form-field>
+  <mat-form-field class="full-width" appearance="fill">
+    <mat-label>Notes</mat-label>
+    <input matInput [(ngModel)]="progressToSave.Notes">
+  </mat-form-field>
+  <mat-form-field class="full-width" appearance="fill">
+    <mat-label>ThingsToImprove</mat-label>
+    <input matInput [(ngModel)]="progressToSave.ThingsToImprove">
+  </mat-form-field>
+  <mat-card-actions>
+    <button mat-raised-button color="primary cursor-pointer" (click)="saveProgress()">Save Progress</button>
+  </mat-card-actions>
+</div>

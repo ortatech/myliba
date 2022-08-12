@@ -1,0 +1,63 @@
+{
+    "CreatedUserId": "62d5ce305b580cd001cbbac8",
+    "CreatedUserName": "dilek@myliba.com",
+    "Title": "İnsan ve kültür yönetiminde marka olmak",
+    "Description": "Our top company OKR; \" Be a brand on the People and Culture",
+    "StartDateTime": "2022-05-31T21:00:00.000Z",
+    "EndDateTime": "2023-07-30T21:00:00.000Z",
+    "ObjectiveType": 0,
+    "IsVisible": true,
+    "ObjectiveAssign": {
+        "AssignedUserId": "62d5ce305b580cd001cbbac8",
+        "DisplayName": "Dilek Mete",
+        "Initial": "D",
+        "IsUserExist": true
+    },
+    "ObjectiveWatchers": [
+        {
+            "AssignedUserId": null,
+            "Initial": "G",
+            "DisplayName": "Gürkan",
+            "IsUserExist": false,
+            "Statu": 0
+        },
+        {
+            "AssignedUserId": null,
+            "Initial": "O",
+            "DisplayName": "Okan",
+            "IsUserExist": false,
+            "Statu": 0
+        }
+    ],
+    "KeyResults": [
+        {
+            "Title": "İnsan ve kültür platformunu geliştirmek",
+            "Description": "\"Creating the human and culture platform",
+            "StartDateTime": "2022-05-31T21:00:00.000Z",
+            "EndDateTime": "2022-12-30T21:00:00.000Z",
+            "Existing": 0,
+            "Current": 0,
+            "Target": 0,
+            "ProgressRatio": 45,
+            "KeyResultWatchers": [],
+            "KeyResultActions": [],
+            "KeyResultProgresses": [
+                {
+                    "Status": "Risk",
+                    "Obstacles": "Obstacles reason - 1",
+                    "Notes": "Notes - 1",
+                    "ThingsToImprove": "Things To Improve - 1"
+                },
+                {
+                    "Status": "Roadblock",
+                    "Obstacles": "Obstacles reason - 1",
+                    "Notes": "Notes - 1",
+                    "ThingsToImprove": "Things To Improve - 1"
+                }
+            ],
+            "OkrConnections": null
+        }
+    ],
+    "OkrConnections": null,
+    "OwnerCompanyId": "62d5ce305b580cd001cbbac7"
+}

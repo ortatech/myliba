@@ -1,0 +1,19 @@
+<mat-card>
+  <div *ngFor="let keyResult of data?.KeyResults">
+    <mat-card-title>{{keyResult?.Title}}</mat-card-title>
+    <mat-card-subtitle>Progress</mat-card-subtitle>
+    <mat-slider min="1" max="100" step="1" [(value)]="keyResult.ProgressRatio"></mat-slider>
+    {{keyResult?.ProgressRatio}} %
+
+    <div *ngFor="let KeyResultProgress of keyResult?.KeyResultProgresses; let i = index" class="progress-card">
+      <hr>
+      <mat-card-actions align="end">
+        <mat-icon (click)="editProgress(i, KeyResultProgress)" class="cursor-pointer">edit</mat-icon>
+      </mat-card-actions>
+      <mat-card-title>{{KeyResultProgress?.Status}}</mat-card-title>
+      <mat-card-subtitle>{{KeyResultProgress?.Obstacles}}</mat-card-subtitle>
+      <mat-card-subtitle>{{KeyResultProgress?.Notes}}</mat-card-subtitle>
+      <mat-card-subtitle>{{KeyResultProgress?.ThingsToImprove}}</mat-card-subtitle>
+    </div>
+  </div>
+</mat-card>
